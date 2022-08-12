@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+/* import logo from './logo.svg';
+import './App.css'; */
+
+//import Counter from './components/counter';
+//import MyFood from './components/MyFood';
+//import MySelf from './components/MySelf';
+//import TaskItem from './components/TaskItem';
+import TaskManager from './components/TaskManager';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MySelf name="Mark Darlington" age={12} gender ="male"/>
+      <MySelf name="Chloe Haword" age={35} gender ="female"/>
+      <MyFood name="Gari & Beans" origin="Volta region" nickname="Gorbe"/>
+      <Counter/> */}
+      <TaskManager/>
+      {/* <TaskItem/> */}
     </div>
+    
   );
 }
 
